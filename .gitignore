@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+uv.lock
+
+# Environments and local secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Local caches and editor files
+.cache/
+.uv-cache/
+.huggingface/
+.hf_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Experiment inputs and artifacts
+data/
+datasets/
+checkpoint/
+checkpoints/
+outputs/
+results/
+logs/
+wandb/
+runs/
+tmp/
+temp/
+runtime.log
+*.log
+*.out
+*.err
+slurm-*.out
+
+# Model and optimizer artifacts
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+*.gguf
+*.ggml
+*.npz
+*.npy
+
+# DeepSpeed / distributed runtime artifacts
+deepspeed_*/
+zero_to_fp32.py
+latest
